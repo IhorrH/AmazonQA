@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Amazon">
+    <test name="Test">
+        <parameter name="filterName" value="Books"></parameter>
+        <parameter name="searchWord" value="Java"></parameter>
+        <parameter name="bookRef" value="https://www.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208/ref=sr_1_2?dchild=1&amp;keywords=Java&amp;qid=1610356790&amp;s=books&amp;sr=1-2"></parameter>
+        <classes>
+            <class name="com.example.tests.Tests"></class>
+        </classes>
+    </test>
+</suite>
